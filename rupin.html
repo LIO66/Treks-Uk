@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>rupin trek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+      <!-- kedartal -->
+      <section class="kedartal" id="kedartal">
+        <div class="container">
+            <div class="info-text">
+            <h2 class="text-center">RUPIN PASS TREK</h2>
+            <div class="row">
+            <div class="col-md-6 text-center">
+            <img src="rupin pass.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-justify">
+            <div class="u-list">
+        <ul>
+            <li>Region :- Uttarakhand to Himanchal</li>
+            <li>Duration :- 8 Days</li>
+            <li>Grade :- Difficult</li>
+            <li>Max Altitude :- 15,250 Ft.</li>
+            <li>Approx Trekking Km :- 52 Kms.</li>
+        </ul>
+    </div>
+    </div>
+            <div class="col-md-6 text-justify">
+            <h3>RUPIN PASS - High Altitude Lake of Shiva</h3>
+            <p class="info">Rupin Pass is a high altitude trek which starts from Dhaula in Uttarakhand and ends at Sangla. Majorly you will do Trekking in Himachal as 80% of the trek route is there itself Being a high altitude trek, of about 15250 feet, Rupin Pass is considered among one of the high range expeditions for Trekking in India. The high altitude in not just sole reason for its popularity among trekkers, the diversified number of sceneries and sudden variation in trails also attracts many nature lovers.</p>
+            </div>
+            <div class="col-md-6 text-justify">
+            <p class="info">You will get surprised at every hour by the number of variety which mother nature has to offer you in Rupin Pass Trek. The trails at times are very difficult with its steep climbs which suddenly changes to an easy walks.Rupin Pass is an ideal trek for any adventure as it offers trek to every type of terrain, be it on snow, rocky terrain, along and through the water streams or meadows. You will start trekking your route from greener and hot landscapes and move towards and through the coldest of areas over the snow as you reach to the end. 
+            </p>
+            </div>
+            </div>
+            
+
+            <!-- gallery -->
+            <div class="main">
+            <h3 class="text-center">GALLERY OF TREK</h3>
+            <img src="1.jpg" id="mainImage">
+            </div>
+            <button onclick="changeImage()" class="btn btn-primary my-4">CLICK ME</button>
+        </div>
+    </section>
+    
+
+
+            <script type="text/javascript">
+                var myImage = document.getElementById('mainImage');
+                var imageArray = ["1.jpg", "2.jpg", "3.jpg", "4.jpg","5.jpg"];
+                var imageIndex = 1;
+                
+                function changeImage(){
+                   myImage.setAttribute("src", imageArray[imageIndex]);
+                imageIndex++;
+                    if(imageIndex > 4){imageIndex = 0;}
+                }
+                </script>
+
+            </body>
+            </html>
+              

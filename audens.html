@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Audens trek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+      <!-- kedartal -->
+      <section class="kedartal" id="kedartal">
+        <div class="container">
+          <div class="info-text">
+          <h2 class="text-center">AUDEN'S COL TREK</h2>
+          <div class="row">
+          <div class="col-md-6 text-center">
+          <img src="Audens.jpg" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-justify">
+          <div class="u-list">
+          <ul>
+            <li>Maximum Altitude: 18,020 feet</li>
+            <li>Expedition Duration: 16 days</li>
+            <li>Best Season: Summer and Post Monsoon (May and October)</li>
+            <li>Difficulty Level: Very Difficult</li>
+        </ul>
+    </div>
+  </div>
+            <div class="col-md-6 text-justify">
+            <p class="info">Auden’s Col is one of the hardest trek routes in Uttarakhand. The trek commences from Gangotri. As you trek towards Nala Camp, you’ll come across pine and cane woodlands. From Nala Camp, the route will take you to the Rudra Gaira Base Camp – an ideal place to catch extraordinary glimpses of snow-laden Himalayan peaks. Connecting the peaks of Jogin I and Gangotri III and also the glaciers of Khatling and Jogin I, this trek takes you through endless glaciers, moraines, narrow cliffs, and snow ridges, thus demanding extremely high fitness.Auden's Col is arguably one of the most challenging and least explored treks in Garhwal Himalayas of Uttarakhand. Auden's Col is a high mountain pass that connects Jogin I (6465m) and Gangotri III (6580m) peaks and is situated at a height of 5490 M.</p>
+            </div>
+            <div class="col-md-6 text-justify">
+              <p class="info">Auden's Col was discovered by John Bicknell Auden, a British Geographical Survey Officer, in 1935.The pass also links two glaciers namely the Khatling glacier and Jogin I glacier which lie opposite to one another. The trek connects two of the holiest pilgrimage sites in India, Gangotri and Kedarnath, which is also a prominent pilgrimage destination and one of the twelve Jyotirlingas located in India. With a strenuous terrain passing through moraines, narrow cliffs, boulders, endless glaciers, and difficult ridges, the Auden's Col trek is meant only for experienced trekkers with high physical fitness and mental endurance.The trek offers magnificent views of peaks such as Rudragaira, Gangotri group, Jogin group,Bhagirathi group of peaks and Kedar Dome which are awe-inspiring, thus making this expedition a once in a lifetime experience.</p>
+          </div>
+        </div>
+             <!-- gallery -->
+               <div class="main">
+               <h3 class="text-center">GALLERY OF TREK</h3>
+               <img src="f1.jpg" id="mainImage">
+               </div>
+              <button onclick="changeImage()" class="btn btn-primary my-4">CLICK ME</button>
+
+              
+            </div>
+          </section>
+
+            <script type="text/javascript">
+              var myImage = document.getElementById('mainImage');
+              var imageArray = ["f1.jpg", "f2.jpg", "f3.jpg", "f4.jpg","f5.jpg","f6.jpg"];
+              var imageIndex = 1;
+
+                 function changeImage(){
+                 myImage.setAttribute("src", imageArray[imageIndex]);
+                 imageIndex++;
+                 if(imageIndex > 5){imageIndex = 0;}
+                  }
+            </script>
+
+            
+            </body>
+            </html>
+              

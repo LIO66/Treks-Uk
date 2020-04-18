@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>valley trek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+      <!-- kedartal -->
+      <section class="kedartal" id="kedartal">
+        <div class="container">
+            <div class="info-text">
+            <h2 class="text-center">VALLEY OF FLOWER TREK</h2>
+            <div class="row">
+            <div class="col-md-6 text-center">
+            <img src="Valley-of-flowers.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-justify">
+            <div class="u-list">
+        <ul>
+            <li>Maximum Altitude: 14,200 feet</li>
+            <li>Trek Duration: 4-5 days</li>
+            <li>Best Season: Monsoon months of June-October</li>
+            <li>Difficulty Level: Very Easy</li>
+        </ul>
+    </div>
+    </div>
+            <div class="col-md-6 text-justify">
+            <p class="info">The trek to Valley of Flowers, a UNESCO Heritage Site, is perhaps the easiest trek in all of Uttarakhand and trekkers can attempt to trek this route without the help of local trekking agencies. This 4-5 day trek attracts visitors for its amazing display of wildflowers. Trekkers ought to expect ample rain and prepare correspondingly. One can also trek up to Hemkund Sahib, a pilgrimage site perched at an altitude of 14,200 ft. Rest assured, the exquisiteness of the wildflowers will make up for all the hardships.Valley of flowers trek has gained a lot of popularity in recent years. The Idea of watching a valley flooded with flowers of all variety and colors can be tempting for any nature lover. The local folklore also complements the aura of this valley. They go to the extent that at times the scent of flowers can be so strong that the visitors fall unconscious. </p>
+            </div>
+            <div class="col-md-6 text-justify">
+            <p class ="info">We haven’t experienced anything like this but it definitely has some truth in it. Considered as one of the most beautiful Valley treks in the Himalayas, the valley is studded with some of the most colorful, beautiful and pristine flowers there is. Depending on the season, the flowers display a unique array of colors and patterns that will leave you spellbound. It was declared a national park in 1982 and it is also a UNESCO world heritage site. The trek to Valley of Flowers will also allow you to trek to the religiously significant Hemkund Sahib, a gurudwara nestled at a staggering height of 14,000 FT. The chance to include a trek with spirituality and scenic beauty is glorious. The best time to visit Valley of Flowers is between July and August when the wildflower blooms are the most vibrant of any found throughout India in the rest of the year. We recommend that you should do Valley of flowers trek yourself i.e. without any trek operator's help as the logistics of the trek are very simple and can be easily done by any trekker - beginner or seasoned.</p>
+        </div>
+        </div>
+             <!-- gallery -->
+             <div class="main">
+             <h3 class="text-center">GALLERY OF TREK</h3>
+             <img src="b1.png" id="mainImage">
+             </div>
+             <button onclick="changeImage()" class="btn btn-primary my-4">CLICK ME</button>
+            </div>
+        </section>
+            
+
+            <script type="text/javascript">
+              var myImage = document.getElementById('mainImage');
+              var imageArray = ["b1.png", "b2.jpg", "b3.jpg", "b4.jpg","b5.jpg","b6.jpg"];
+              var imageIndex = 1;
+
+             function changeImage(){
+                myImage.setAttribute("src", imageArray[imageIndex]);
+                imageIndex++;
+                if(imageIndex > 5){imageIndex = 0;}
+                }
+            </script>
+            </body>
+            </html>
+              

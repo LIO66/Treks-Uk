@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>satopanth trek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+      <!-- kedartal -->
+      <section class="kedartal" id="kedartal">
+        <div class="container">
+            <div class="info-text">
+            <h2 class="text-center">SATOPANTH TREK</h2>
+            <div class="row">
+            <div class="col-md-6 text-center">
+            <img src="satopanth-lake.jpeg" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-justify">
+            <div class="u-list">
+         <ul>
+            <li>Maximum Altitude: 14,600 feet</li>
+            <li>Trek Duration: 8 Days</li>
+            <li>Best Season: June, September, and October</li>
+            <li>Difficulty Level: Moderate</li>
+        </ul>
+    </div>
+    </div>
+             <div class="col-md-6 text-center">
+            <p class="info">Satopanth lake trek will take you to Satopanth Tal, an amazing glacial lake whose beauty is heightened by the soaring snow-garbed foothills like Neelkanth, Satopanth (23,206 ft), Chaukhamba I and Balakun.The reflections of these amazing mountains on the crystal-clear glacial lake are truly a sight to behold The Holy trio, Brahma, Vishnu, and Mahesh are believed to have meditated at the three corners of the Satopanth Lake. The trek to Satopanth Lake is a spiritual journey as well. This isolated trek is a must do for those who love challenges as very as serene nature.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="lake.jpg">
+                </div>
+                </div>
+            <!-- gallery -->
+           <div class="main">
+           <h3 class="text-center">GALLERY OF TREK</h3>
+           <img src="a1.jpeg" id="mainImage">
+           </div>
+           <button onclick="changeImage()" class="btn btn-primary my-4">CLICK ME</button>
+
+
+           </div>
+          </section>
+
+           <script type="text/javascript">
+            var myImage = document.getElementById('mainImage');
+            var imageArray = ["a1.jpeg", "a2.jpg", "a3.jpg", "a4.jpg","a5.jpg"];
+            var imageIndex = 1;
+
+             function changeImage(){
+                 myImage.setAttribute("src", imageArray[imageIndex]);
+                 imageIndex++;
+                if(imageIndex > 4){imageIndex = 0;}
+               }
+             </script>
+            </body>
+            </html>
+              

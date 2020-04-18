@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kedartal trek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+      <!-- kedartal -->
+      <section class="kedartal" id="kedartal">
+            <div class="container">
+                <div class="info-text">
+                <h2 class="text-center">KEDAR TAL TREK</h2>
+                <div class="row">
+                <div class="col-md-6 text-center">
+                <img src="Kedartal.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-6 text-justify">
+                <div class="u-list">
+                <ul>
+                  <li>Maximum Altitude:16,110 feet</li>
+                  <li>Trek Duration:7 days</li>
+                  <li>Best Season: During the months of May-June and September-October</li>
+                  <li>Difficulty Level: Moderate</li>
+                </ul>
+             </div>
+             </div>
+             <div class="col-md-6 text-justify">
+             <h3>Kedar Tal - High Altitude Lake of Shiva</h3>
+             <p class="info">Kedartal also known as ‘Shiva’s Lake’ is one of the highest lakes in Uttarakhand.This immaculate glacial lake is seated at an elevation of 4,912 metres above sea level in the Uttarkashi district.</p>
+             <p class="info">KedarTal lake is formed by the melting of Kedar glacier, thereby giving birth to Kedar Ganga River which is an important tributary of Bhagirathi River. Located in the Gangotri area of the Garhwal Himalayas, this trek in Uttarakhand is ideal for mountain aficionados as it offers remarkable views of the Great Himalayan ranges such as the Jogin peaks, the Bhirgupanth peak and the Thalayasagar peak. This high altitude glacial lake is the hidden gem of Uttarakhand. Amongst the snow-shielded peaks and landscape, the explorers can also get a sight of several mountain wildlife species such as the Blue Sheep, Goral, and the famous Himalayan Black Bear on Kedartal Trek.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="trek.jpg" class="img-fluid">
+                </div>
+                
+            </div>
+             <!-- gallery -->
+            <div class="main">
+                <h3 class="text-center">GALLERY OF TREK</h3>
+                <img src="a.jpeg" id="mainImage">
+            </div>
+           <button onclick="changeImage()" class="btn btn-primary my-4">CLICK ME</button>
+           </div>
+           </section>
+            
+           <script type="text/javascript">
+           var myImage = document.getElementById('mainImage');
+           var imageArray = ["a.jpeg", "b.jpg", "c.jpg", "d.jpg","e.jpg","f.jpg"];
+           var imageIndex = 1;
+
+            function changeImage(){
+               myImage.setAttribute("src", imageArray[imageIndex]);
+               imageIndex++;
+                if(imageIndex > 5){imageIndex = 0;}
+            }
+            </script>
+            </body>
+            </html>
+              

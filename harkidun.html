@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>harkidun trek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+      <!-- kedartal -->
+      <section class="kedartal" id="kedartal">
+        <div class="container">
+            <div class="info-text">
+            <h2 class="text-center">HAR KI DUN TREK</h2>
+            <div class="row">
+            <div class="col-md-6 text-center">
+            <img src="unnamed.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-justify">
+            <div class="u-list">
+            <ul>
+            <li>Maximum Altitude: 11,500 feet</li>
+            <li>Trek Duration: 7 days</li>
+            <li>Best Season: Spring months of March-June and Post Monsoon months of September-December</li>
+            <li>Difficulty Level: Easy</li>
+        </ul>        
+    </div>
+    </div>
+              <div class="col-md-6 text-justify">
+              <h3>This is one of the easiest to accomplish treks in the Garhwal region of the Himalayas.</h3>
+              <p class="info">During Har Ki Dun trek, explorers will get to witness the beautiful Tons River valley that is encircled by the highlands and dense woodlands. The pre-Monsoon spring months are ideal for bird watchers and the post-monsoon season is recommended for flora lovers as they blossom in these months. The trail has enough snow in the months of December and April, making it perfect for snow lovers. Steeped in mythology, this trek is sublime.</p>
+              </div>
+              <div class="col-md-6 text-justify">
+              <img src="Ruinsara.jpg" class="img-fluid">
+              </div>
+              <div class="col-md-6 text-justify"> 
+              <h3>Har Ki Dun without Ruinsara is a totally incomplete trek</h3> 
+              <p class="info">Trekkers think when it comes to great treks in summer you can’t beat treks like Rupin Pass or Buran Ghati. And when we talk about Har-Ki-Dun with Ruinsara, they think it is a poor cousin. It’s not true at all. Har Ki Dun-Ruinsara Tal has to be one of the most underrated treks in our country.
+                Har Ki Dun is a trek that needs no introduction. It’s been around for many many years, and trekkers have always loved it. Without Ruinsara, Har-Ki-Dun is a very good trek. But with Ruinsara added on Har-Ki-Dun, it is a great trek, one of the most complete trek that you will possibly do</p>
+            </div>
+            </div>
+            </div>
+            <!-- gallery -->
+             <div class="main">
+             <h3 class="text-center">GALLERY OF TREK</h3>
+             <img src="img 1.jpg" id="mainImage">
+             </div>
+             <button onclick="changeImage()" class="btn btn-primary my-4">CLICK ME</button>
+
+
+              </div>
+
+             <script type="text/javascript">
+             var myImage = document.getElementById('mainImage');
+             var imageArray = ["img 1.jpg", "img 2.jpg", "img 3.jpg", "img 4.jpg","img 5.jpg"];
+             var imageIndex = 1;
+
+            function changeImage(){
+             myImage.setAttribute("src", imageArray[imageIndex]);
+             imageIndex++;
+              if(imageIndex > 4){imageIndex = 0;}
+              }
+            </script>
+
+            
+            </div>
+            </section>
+            </body>
+            </html>
+              

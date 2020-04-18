@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kedarkantha trek</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+      <!-- kedartal -->
+      <section class="kedartal" id="kedartal">
+        <div class="container">
+            <div class="info-text">
+            <h2 class="text-center">Kedarkantha Trek</h2>    
+            <div class="row">
+            <div class="col-md-6 text-center">
+            <img src="kedarkantha-1.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-justify">
+            <div class="u-list">
+            <ul>
+            <li>Maximum Altitude: 12,500 feet</li>
+            <li>Trek Duration: 5 days</li>
+            <li>Best Season: December-April</li>
+            <li>Difficulty Level: Easy</li>
+           </ul>
+          </div>
+        </div>
+            <div class="col-md-6 text-justify">
+            <h3>One of the finest summit climbs for beginners</h3>
+            <p class="info">The experience of a summit climb is special because it stays with you for a long time. Waking up at wee hours in the morning, dawn breaking as you climb up the mountain flank. For a long time, this flank and trail is the only thing you can see ahead of you. And then, coming up to the ridge where your world widens. And then, finally, the summit where everything else is below you.</p>
+            <p class="info">The thought of covering over 18 km in just 4-5 days, gaining an altitude of over 6000 feet may seem harsh but the stunning 360-degree views of various celebrated mountain peaks in Kedarkantha certainly makes it worth the while. Start from the village Sankri in Uttarakhand and by the time you reach the Kedarkantha peak, you will feel as if you’ve touched the sky</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="shut.jpg" class="img-fluid">
+            </div>
+            </div>
+        
+        
+
+            <!-- gallery -->
+             <div class="main">
+             <h3 class="text-center">GALLERY OF TREK</h3>
+             <img src="p1.jpg" id="mainImage">
+             </div>
+             <button onclick="changeImage()" class="btn btn-primary my-4">CLICK ME</button>
+
+
+            </div>
+            </section>
+
+            <script type="text/javascript">
+                var myImage = document.getElementById('mainImage');
+                var imageArray = ["p1.jpg", "p2.jfif", "p3.jpg", "p4.jpg","p5.jpg"];
+                var imageIndex = 1;
+
+             function changeImage(){
+             myImage.setAttribute("src", imageArray[imageIndex]);
+             imageIndex++;
+             if(imageIndex > 4){imageIndex = 0;}
+            }
+              </script>
+            </body>
+            </html>
+              
